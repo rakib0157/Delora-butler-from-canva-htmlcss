@@ -1,0 +1,284 @@
+/*==================== common css code start  ======================*/
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+#banner-section, #about-me, #gallery-one, #gallery-two, #card-section, #portfolio, #homepage-footer{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0px;
+}
+.section-container{
+    width: 100%;
+    height: 100%;
+}
+.myname-common-heading , .common-page-number{
+    font-size: 24px;
+    font-weight: 800;
+}
+.common-section-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+
+}
+/*==================== common css code end  ======================*/
+/*==================== banner start  ======================*/
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text-container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 40px;
+}
+.banner-heading{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.my-name{
+    font-size: 70px;
+    font-weight: 800;
+}
+.banner-date{
+    font-size: 24px;
+    font-weight: 400;
+}
+.banner-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    height: 50vh;
+}
+.banner-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/*==================== banner end  ======================*/
+
+/*==================== about me start  ======================*/
+.about-me-details-container{
+    display: flex;
+    height: 70vh;
+}
+.left-about{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-heading{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.right-about{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+.about-p{
+    font-size: 17px;
+    width: 45%;
+
+}
+.right-about img{
+    height: 100%;
+}
+/*==================== about me end  ======================*/
+
+/*==================== gallery one start  ======================*/
+.galleryone-container{
+    display: flex;
+    height: 70vh;
+}
+.galleryone-left{
+    width: 78%;
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+.galleryone-left div:first-child{
+    height: 100%;
+    width: 35%;
+}
+.galleryone-left div:last-child{
+    width: 55%;
+    height: 70%;
+}
+.galleryone-left div img{
+    width: 100%;
+}
+
+.galleryone-right{
+    width: 22%;
+}
+.galleryone-right figure img{
+    width: 100%;
+}
+
+/*==================== gallery one end  ======================*/
+
+/*==================== gallery two start  ======================*/
+.gallerytwo-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    height: 75vh;
+}
+.gallerytwo-left{
+    width: 48%;
+    display: flex;
+    gap: 16px;
+    height: 60vh;
+    justify-content: space-between;
+}
+.gallerytwo-left > img:first-child{
+    width: 50%;
+}
+.gallerytwo-left > img:last-child{
+    width: 50%;
+}
+.galleryone-left img{
+    width: 50%;
+    height: 100%;
+}
+.gallerytwo-right{
+    width: 52%;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    height: 70vh;
+}
+.gallerytwo-right > img:first-child{
+    width: 60%;
+}
+.gallerytwo-right > img:last-child{
+    width: 40%;
+}
+.galleryone-right img{
+    height: 100%;
+    width: 50%;
+}
+/*==================== gallery two end  ======================*/
+/*==================== card section start  ======================*/
+.card-container{
+    display: flex;
+    gap: 16px;
+    /* justify-content: space-around; */
+}
+.card{
+    flex: 1;
+}
+.card p{
+    font-style: italic;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.card > img{
+    width: 100%;
+}
+.card-title{
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.client-name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/*==================== card section end  ======================*/
+/*==================== portfolio section start  ======================*/
+.portfolio-container{
+    height: 75vh;
+    display: flex;
+    gap: 100px;
+}
+.left-portfolio{
+    width: 38%;
+}
+.left-portfolio img{
+    width: 100%;
+    height: 100%;
+}
+.right-portfolio{
+    width: 62%;
+    display: flex;
+    align-items: center;
+}
+.p-card{
+    width: 50%;
+}
+.p-card > p {
+    margin: 30px 0px;
+    font-weight: 400;
+}
+/*==================== portfolio section end  ======================*/
+
+/*==================== homepage footer start  ======================*/
+.footer-container{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+.left-footer{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right-footer{
+    width: 28%;
+    height: 100%;
+}
+.right-footer img{
+    width: 100%;
+    height: 100%;
+}
+.left-up{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+address img{
+    width: 25%;
+    height: 100%;
+}
+.uperAddress{
+    width: 75%;
+}
+.left-up img{
+    width: 25%;
+}
+.left-down{
+    height: 50%;
+}
+.info-title{
+    font-size: 18px;
+    font-style: normal;
+}
+.footer-address-heading{
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    margin: 16px 0px;
+}
+/*==================== homepage footer end  ======================*/
